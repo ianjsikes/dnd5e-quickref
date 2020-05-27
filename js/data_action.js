@@ -36,7 +36,21 @@ data_action = [
             "Using the <i>Attack</i> action, you can make a special melee attack to shove a creature. If you're able to make multiple attacks with the Attack action, this attack replaces one of them.",
             "The target of your shove must be no more than one size larger than you, and it must be within your reach.",
             "You make a Strength (Athletics) check contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check (the target chooses the ability to use).",
-            "If you win the contest, you either knock the target prone or push it 5 feet away from you."
+            "If you win the contest, you either knock the target prone or push it 5 feet away from you.",
+            "You can also push the target 5 feet in a different space if you roll the Strength check with disadvantage."
+        ]
+    },
+    {
+        title: "Disarm",
+        icon: "drop-weapon",
+        subtitle: "Special melee attack",
+        description: "Knock a weapon or another item from a target's grasp",
+        reference: "PHB, pg. 271.",
+        bullets: [
+            "You make an attack roll contested by the target's Strength (Athletics) or Dexterity (Acrobatics) check.",
+            "If you succeed, the target drops the item.",
+            "You have disadvantage if the target is holding the item with two or more hands.",
+            "The target has advantage if they are larger than you, or disadvantage if they are smaller."
         ]
     },
     {
@@ -80,6 +94,32 @@ data_action = [
         bullets: [
             "Until the start of your next turn, any attack roll made against you has disadvantage if you can see the attacker, and you make Dexterity saving throws with advantage.",
             "You lose this benefit if you are <i>incapacitated</i> or if your speed drops to 0."
+        ]
+    },
+    {
+        title: "Overrun",
+        icon: "bulldozer",
+        subtitle: "Plow through",
+        description: "Move through a hostile creature's space",
+        reference: "PHB, pg. 272.",
+        bullets: [
+            "You can try to force your way through an enemy's space.",
+            "As an action or bonus action, you make a Strength (Athletics) check contested by the target's Strength (Athletics) check.",
+            "You have advantage if you are larger, and disadvantage if you are smaller.",
+            "If you succeed, you can move through the target's space once this turn."
+        ]
+    },
+    {
+        title: "Tumble",
+        icon: "acrobatic",
+        subtitle: "Slip past",
+        description: "Move through a hostile creature's space",
+        reference: "PHB, pg. 272.",
+        bullets: [
+            "You can try to tumble through an enemy's space.",
+            "As an action or bonus action, you make a Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check.",
+            "You have advantage if you are smaller, and disadvantage if you are larger.",
+            "If you succeed, you can move through the target's space once this turn."
         ]
     },
     {
@@ -149,6 +189,19 @@ data_action = [
         reference: "PHB, pg. 193.",
         bullets: [
             "Depending on the nature of your search, the DM might have you make a Wisdom (Perception) check or an Intelligence (Investigation) check."
+        ]
+    },
+    {
+        title: "Climb/Mount",
+        icon: "mountaintop",
+        subtitle: "Climb onto a bigger creature",
+        description: "Climb onto a bigger creature",
+        reference: "PHB, pg. 272.",
+        bullets: [
+            "You can make a Strength (Athletics) or Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check.",
+            "If you win, you successfully move into the target's space and cling to its body. While in the space, you move with the target and have advantage on attack rolls against it.",
+            "You can move around within the larger creature's space, treating it as difficult terrain. The target's ability to attack you depends on your location.",
+            "The target can dislodge you as an action by making a Strength (Athletics) check contested by your Strength (Athletics) or Dexterity (Acrobatics) check."
         ]
     },
     {
