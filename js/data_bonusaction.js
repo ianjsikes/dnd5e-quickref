@@ -24,6 +24,32 @@ data_bonusaction = [
         ]
     },
     {
+        title: "Overrun",
+        icon: "bulldozer",
+        subtitle: "Plow through",
+        description: "Move through a hostile creature's space",
+        reference: "PHB, pg. 272.",
+        bullets: [
+            "You can try to force your way through an enemy's space.",
+            "As an action or bonus action, you make a Strength (Athletics) check contested by the target's Strength (Athletics) check.",
+            "You have advantage if you are larger, and disadvantage if you are smaller.",
+            "If you succeed, you can move through the target's space once this turn."
+        ]
+    },
+    {
+        title: "Tumble",
+        icon: "acrobatic",
+        subtitle: "Slip past",
+        description: "Move through a hostile creature's space",
+        reference: "PHB, pg. 272.",
+        bullets: [
+            "You can try to tumble through an enemy's space.",
+            "As an action or bonus action, you make a Dexterity (Acrobatics) check contested by the target's Dexterity (Acrobatics) check.",
+            "You have advantage if you are smaller, and disadvantage if you are larger.",
+            "If you succeed, you can move through the target's space once this turn."
+        ]
+    },
+    {
         title: "Use class feature",
         icon: "embrassed-energy",
         subtitle: "Some features use bonus actions",
